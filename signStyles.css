@@ -1,0 +1,224 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body
+{
+    background-image: linear-gradient(to top, rgb(0 0 0 / 55%) 0, rgb(0 0 0 / 33%) 70%,rgb(0 0 0 / 67%)),url('backDrop.png');
+    background-size: cover;
+}
+.sign
+{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signBox
+{
+    height:560px;
+    width:400px;
+    background-color: rgba(0, 0, 0, 0.637);
+    margin-bottom: 10px;
+    margin-top: 12px;
+    border:2px solid transparent;
+    border-radius: 18px;
+    padding-left: 10px;
+    transition: all 2s ease-in;
+}
+.signBox:hover
+{
+    transform: scale(1.02);
+}
+.DownBox
+{
+    height: 240px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.696);
+    border-top: 5px solid rgba(68, 68, 68, 0.772);
+}
+.txt
+{
+    margin: 35px;
+    font-size:1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    padding-left: 85px;
+}
+.txt h1{
+    border-bottom:2px solid transparent;
+    display: inline-block;
+}
+
+.txt h1:hover{
+    border-bottom:2px solid white;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    margin-top:70px;
+    margin-bottom:50px;
+}
+
+.mail input{
+    width: 320px;
+    background-color:#333333;
+    border-radius:4px;
+    height: 40px;
+    padding-left: 5px;
+    color: #FFFFFF;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+::placeholder
+{
+    color: rgba(255, 255, 255, 0.897);
+    font-size:1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pwrd
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+
+.pwrd input{
+    width: 320px;
+    background-color:#333333;
+    border-radius:4px;
+    height: 40px;
+    padding-left: 5px;
+    color: #FFFFFF;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signBox button{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height:40px;
+    width:260px;
+    background-color:#B20710;
+    border-radius:10px;
+    border: 2px solid transparent;
+    font-size:16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 67.5px;
+    cursor: pointer;
+}
+.signBox button:hover{
+    border: 1.8px solid white;
+}
+
+.checkbox 
+{
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.911);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.checkbox a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.916);
+    border-bottom: 1px solid transparent;
+}
+
+.checkbox a:hover{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.918);
+}
+
+.checkbox p{
+    display: inline-block;
+    margin-left: 150px;
+    font-size: 14.45px;
+}
+
+.New p{
+    display: inline-block;
+    font-size:0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#FFFFFF;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.New a{
+    font-size:0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#FFFFFF;
+    margin-left: 9px;
+}
+
+.Lists
+{
+    display: flex;
+    width:100%;
+    height:70px;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+.Qns
+{
+    margin-top:10px;
+    height:20px;
+}
+
+.Qns p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1rem;
+    color:#ffffffde;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.faqs  li
+{
+    list-style-type:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    margin-bottom: 2rem;
+} 
+.faqs a{
+    text-decoration: none;
+    color: #808080;
+    border: 1px solid transparent;
+}
+.faqs a:hover{
+    border-bottom: 1px solid #808080;
+}
+.help li
+{
+    list-style-type:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    margin-bottom: 2rem;
+}
+.help a{
+    text-decoration: none;
+    color: #808080;
+}
+.help a:hover{
+    border-bottom: 1px solid #808080;
+}
+.trms li
+{
+    list-style-type:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    margin-bottom: 2rem;
+}
+.trms a{
+    text-decoration: none;
+    color: #808080;
+}
+.trms a:hover{
+    border-bottom: 1px solid #808080;
+}
